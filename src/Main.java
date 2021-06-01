@@ -20,7 +20,7 @@ public class Main {
         double height = input.nextDouble();
         while (height <= 0) {
             System.out.println("That's invalid. Please input the base of the triangle (in inches).");
-            base = input.nextDouble();
+            height = input.nextDouble();
         }
 
         double area = (base * height) / 2;
